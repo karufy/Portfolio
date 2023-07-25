@@ -1,14 +1,10 @@
 # Portfolio Project
 
-This multi-page, multi-link project was created by incorporating HTML, CSS, Vanilla JavaScript, Flex CSS, JQuery, JSON, Bootstrap.
+This multi-page, multi-link portfolio was created by incorporating HTML, CSS, Vanilla JavaScript, Flex CSS, JQuery, JSON, Bootstrap.
 
 ## Purpose
 
-A fulfilment of:
-
-```bash
-SBA 307 and 308 - HTML and JavaScript
-```
+To showcase the who and what of Ugo Ochi
 
 ## External Links
 
@@ -26,6 +22,8 @@ SBA 307 and 308 - HTML and JavaScript
 # An Exercise Counter
 
 # A blog App
+
+# Software download center + Reviews & Testimonials + Quote of the Day
 ```
 
 ## Contributing
@@ -41,12 +39,16 @@ Open a Pull Request
 ## License
 
 https://perscholas.org/
+
 https://openweathermap.org/
+
 https://chat.openai.com/
 
 ## Contact
 
 ochi.ugochukwu@gmail.com
+
 https://www.linkedin.com/in/ugochukwu-ochi/
+
 https://github.com/karufy
 
