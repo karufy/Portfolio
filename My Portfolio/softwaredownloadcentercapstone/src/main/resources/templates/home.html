@@ -1,0 +1,221 @@
+<!--Had to make all my frontend html, JS and CSS inline links and scripts because due to cache issues my browser wasn't picking them up when I put them in outside folders-->
+
+
+<!doctype html>
+<html lang="en" xmlns:th="https://www.thymeleaf.com">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="quotes.css">
+    <link rel="shortcut icon" type="images/jpg" href="quotesign.jpg" />
+    <title>SoftWare Download Center</title>
+</head>
+<body>
+
+
+<style>
+	body{
+    background: #babaf1;
+    color: #140202;
+}
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">SoftWare Download Center</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="available_softwares">Available</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="my_softwares">Installed</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="software_register">Registry</a>
+                </li>
+            </ul>
+            <div>
+                <a class="nav-link text-white" href="download_engine">Download-Center</a>
+            </div>
+            <div>
+                <a class="nav-link text-white" href="software_finder">Reviews</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="container text-center my-5">
+    <h1 style="color: #fff">SOFTWARE DOWNLOAD CENTER</h1>
+    <p style="color: #fff">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti enim reiciendis nemo 
+		repellendus doloribus cupiditate expedita tempore non accusamus consequuntur? 
+		Laboriosam commodi accusamus officia delectus minus beatae voluptate autem rerum.</p>
+    <br>
+    <img class="bg" src="/images/bkg2.avif" width="100%" alt="full image"/>
+</div>
+<br>
+<br>
+ <main class="app">
+    <div class="quotes-container">
+      <div class="inner-quotes-container">
+        <p id="quote"><h4><u>Quote Of The Day</u></h4></p>
+        <h3 id="author"></h3>
+      </div>
+      <div class="quote-btn">
+        <button class="btn btn-info" id="generate">Generate Quote</button>
+      </div>
+    </div>
+  </main>
+  
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+  background: #06BDC1;
+  background: -webkit-radial-gradient(center, #06BDC1, #68469F);
+  background: -moz-radial-gradient(center, #06BDC1, #68469F);
+  background: radial-gradient(ellipse at center, #06BDC1, #68469F);
+}
+
+.app {
+  width: 1200px;
+  margin: auto;
+}
+
+.quotes-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.inner-quotes-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 900px;
+  text-align: center;
+  min-height: 400px;
+  padding: 0 25px;
+  color: gray;
+  border-radius: 10px;
+  background-color: #F4EDEA;
+  border: 10px solid #06BDC1;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.9);
+}
+
+.inner-quotes-container p {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.inner-quotes-container h3 {
+  font-size: 2rem;
+  color: black;
+  font-family: 'Dancing Script', cursive;
+}
+
+.quote-btn {
+  padding-top: 25px;
+}
+
+@media(max-width:1280px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media(max-width:900px) {
+  .inner-quotes-container {
+    width: 100%;
+  }
+}
+
+@media(max-width:480px) {
+  .inner-quotes-container p {
+    font-size: 1.2rem;
+  }
+
+  .inner-quotes-container h3 {
+    font-size: 1.5rem;
+  }
+}
+  </style>
+
+<script src="quotes.js"></script>
+<script>
+	const quotes = {
+    "- Walt Disney": '"The Way Get Started Is To Quit Talking And Begin Doing."',
+    "- Winston Churchill": '"The Pessimist Sees Difficulty In Every Opportunity. The Optimist Sees Opportunity In Every Difficulty."',
+    "- Will Rogers": '"Don’t Let Yesterday Take Up Too Much Of Today."',
+    "- Unknown": '"You Learn More From Failure Than From Success. Don’t Let It Stop You. Failure Builds Character."',
+    "- Vince Lombardi": '"It’s Not Whether You Get Knocked Down, It’s Whether You Get Up."',
+    "- Mahatma Gandhi": '"Live as if you were to die tomorrow. Learn as if you were to live forever"',
+    "- Martin Luther King Jr": '"Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that."',
+    "- Albert Einstein": '"Strive not to be a success, but rather to be of value."',
+    "- Florence Nightingale": '"I attribute my success to this: I never gave or took any excuse."',
+    "- Michael Jordan": '"I missed more than 9000 shots in my career. I lost almost 300 games. 26 times I been trusted to take the game winning shot and missed. I failed over and over and over again in my life. And that is why I succeed."',
+    "- Babe Ruth": '"Every strike brings me closer to the next home run."',
+    "- John Lennon": '"Life is what happens to you while you’re busy making other plans."',
+    "- Earl Nightingale": '"We become what we think about."',
+    "- Mark Twain": '"Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do, so throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails.  Explore, Dream, Discover."',
+    "- Charles Swindoll": '"Life is 10% what happens to me and 90% of how I react to it."',
+    "- Buddah": '"The mind is everything. What you think you become."',
+    "- Chinese Proverb": '"The best time to plant a tree was 20 years ago. The second best time is now."',
+    "- Woody Allen": '"Eighty percent of success is showing up."',
+    "- Steve Jobs": '"Your time is limited, so don’t waste it living someone else’s life."',
+    "- Vince Lombardi": '"Winning isn’t everything, but wanting to win is."',
+    "- Stephen Covey": '"I am not a product of my circumstances. I am a product of my decisions. "',
+    "- Christopher Columbus": '"You can never cross the ocean until you have the courage to lose sight of the shore."',
+    "- Maya Angelou": '"I’ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel. "',
+    "- Jim Rohn": '"Either you run the day, or the day runs you."',
+    "- Henry Ford": '"Whether you think you can or you think you can’t, you’re right."',
+    "- Frank Sinatra": '"The best revenge is massive success."',
+    "- Zig Ziglar": '"People often say that motivation doesn’t last. Well, neither does bathing.  That’s why we recommend it daily."',
+    "- Aristotle": '"There is only one way to avoid criticism: do nothing, say nothing, and be nothing"',
+    "- Jesus": '"Ask and it will be given to you; search, and you will find; knock and the door will be opened for you."',
+    "- Ralph Waldo Emerson": '"The only person you are destined to become is the person you decide to be."',
+    "- Henry David Thoreau": '"Go confidently in the direction of your dreams.  Live the life you have imagined."',
+    "- Erma Bombeck": '"When I stand before God at the end of my life, I would hope that I would not have a single bit of talent left and could say, I used everything you gave me."',
+    "- Booker T. Washington": '"Few things can help an individual more than to place responsibility on him, and to let him know that you trust him."'
+  };
+
+
+document.querySelector("#generate").addEventListener("click", () => {
+  generate();
+});
+
+function generate(){
+  // grab all the keys in the dictionary (authors) and store in an array
+  const authors = Object.keys(quotes);
+  // grab a random key (author) and store it in author
+  const author = authors[Math.floor(Math.random() * authors.length)];
+  // grab the value(quote) that belongs to that key
+  const quote = quotes[author]
+
+  document.querySelector("#quote").textContent = quote;
+  document.querySelector("#author").textContent = author;
+}
+
+window.onload = function(){
+  generate()
+}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</body>
+</html>

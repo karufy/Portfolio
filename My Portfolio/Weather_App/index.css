@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62,143));
+    color:#fff;
+    font-family:'Poppins', sans-serif ;
+}
+
+.card{
+    width: 90%;
+    max-width: 40rem;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    text-align: center;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebffce;
+    color: #555;
+    height: 60px;
+    margin-right: 16px;
+    border-radius: 30px;
+    padding: 40px 35px;
+    flex: 1;
+    font-size: 18px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebffce;
+    cursor: pointer;
+    height: 60px;
+    border-radius: 50px;
+    width: 60px;
+}
+
+.search button img{
+    width: 16px;
+}
+
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.history-back{
+    display: flex;
+    align-items: center;
+    cursor: pointer; 
+}
+.degree-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree-section span{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.degree-section h2{
+    font-size: 40px;
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}

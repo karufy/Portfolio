@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+}
+body{
+    background: #babaf1;
+    color: #140202;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+    display:flex;
+    margin: auto;
+    height: 40px;
+    align-items:center;
+    background: #434989;
+    border-radius: 8px;
+}
+form input{
+  flex: 1;
+  outline: 0;
+  border: 0;
+  height: 100%;
+  background: transparent;
+  color: rgb(250, 245, 245);
+  font-size: 18px;
+  padding: 0 30px;
+}
+form button{
+    padding: 0 40px;
+    height: 100%;
+    background: #ff3929;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+#show-more-btn{
+    background: #ff3929;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 10px auto 100px;
+    cursor: pointer;
+    display: none;
+}
+#search-result{
+    width: 80px;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#search-result img{
+    width: 100%;
+    object-fit: cover;
+    height: 230px;
+    border-radius: 5px;
+}
+#show-more-button{
+    padding:10px 10px;
+    background-color: blue;
+    color: #fff;
+    border:none;
+    font-size:18px;
+    box-shadow:0 0 6px black;
+    cursor:pointer;
+    border-radius:5px;
+    margin:auto;
+    display: block;
+    }
+.bgimage {
+    height:100vh;
+    background-color: #050b38;
+    background-size:cover;
+    position:relative;
+    padding: 0;
+    margin: 0;
+    height: 1300px;;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search input[type=text]{
+    width:300px;
+    height:25px;
+    border-radius:25px;
+    border: none;
+}
+ 
+.search{
+    float:right;
+    margin:7px;
+ 
+}
+ 
+.search button{
+    background-color: #0074D9;
+    color: #f2f2f2;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
