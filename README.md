@@ -15,7 +15,7 @@
 
 # About Me:
 
-- 💬 Ask me about **Cloud Computing, DevOps, S.R.E. & Java Fullstack Development**
+- 💬 Ask me about **Data Analytics | DevOps | Cloud Computing | Cybersecurity | Java Fullstack Development**
 
 - 📫 How to reach me **ochi.ugochukwu@gmail.com**
 
