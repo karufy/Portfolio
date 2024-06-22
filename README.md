@@ -15,7 +15,7 @@
 
 # About Me:
 
-- 💬 Ask me about **Data Analytics | DevOps | Cloud Computing | Cybersecurity | Java Fullstack Development**
+- 💬 Ask me about **Business Data Analytics | Security & Compliance | DevOps | Cloud Computing**
 
 - 📫 How to reach me **ochi.ugochukwu@gmail.com**
 
