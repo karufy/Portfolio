@@ -13,7 +13,7 @@
 
 - 🤝 Project Management [Confluence](https://agile-pm-scope.atlassian.net/wiki/spaces/~71202031a89df77f7841379f45904a30094514/pages/10059777/Capstone+Project)
 
-- ⚡ HackerRank Projects [HackeRank](https://www.hackerrank.com/profile/ugochukwu_ochi)
+- ⚡ HackerRank Projects [HackerRank](https://www.hackerrank.com/profile/ugochukwu_ochi)
 
 # About Me:
 
